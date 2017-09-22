@@ -17,7 +17,7 @@ public class CondoSales {
 		{
 			case 1:
 			price = 150000;
-				System.out.println("You've selected Park view\nPrice is $"+ price);
+				System.out.println("You've selected Park view\nPrice is $"+ price );
 				break;
 			case 2:
 			price = 170000;
@@ -29,7 +29,7 @@ public class CondoSales {
 				break;
 			default:
 			price=0;
-			System.out.println("Invalid \nprice is $"+price);
+			System.out.println("Invalid \nprice is $"+ price);
 		}
 
 	}
