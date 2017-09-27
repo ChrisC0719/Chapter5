@@ -10,7 +10,7 @@ public class CellPhoneService {
 		double price;
 		Scanner in = new Scanner(System.in);
 		System.out.println("Select Phone Plan\n");
-		System.out.println("PlanA) 49 per month 500 minutes of talk no text or data\nPlanB) $55 per monthfewer then 500 minutes and any text\nPlanC) $61 per month more then 500 minutes no data up to 100 text" +
+		System.out.println("PlanA) $49 per month 500 minutes of talk no text or data\nPlanB) $55 per monthfewer then 500 minutes and any text\nPlanC) $61 per month more then 500 minutes no data up to 100 text" +
 		"\nPlanD) $70 per month for more then 100 text messages or more\nPlanE) $79 for any data up to 2 gigabytes\nPlanF) $87 up to 2 gigabytes or more");
 		phonePlan = in.nextInt();
 		in.nextLine();
@@ -45,7 +45,7 @@ public class CellPhoneService {
 			break;
 			
 		}
-		}
+		
 		
 		
 		

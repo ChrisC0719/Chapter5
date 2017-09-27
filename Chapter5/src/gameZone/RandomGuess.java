@@ -12,10 +12,18 @@ public class RandomGuess {
 		final int MAX = 10;
 		
 		int userNum;
-		String userInut;
+		int randomize = (1 + (int)(Math.random()* 10));
+		String userInput;
+		String message = "";
+
+		userInput = JOptionPane.showInputDialog("Guess my number it's between 1-10");
+		if (userInput != Integer.toString(randomize)) {
+			message = " you guessed wrong";
+		}
 		
 		
-		userInput = JOptionPane.showInputDialog(null, )
+		JOptionPane.showMessageDialog(null,"The number is "+ randomize + message);
+		
 	}
 
 }

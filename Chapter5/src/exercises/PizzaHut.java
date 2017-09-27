@@ -27,6 +27,7 @@ public class PizzaHut
 			System.out.println("You said " + choiceYes + " to having pizza.");
 				System.out.print("Please choose a  size small, medium or large? >>>>>>>");
 				size = input.nextLine();
+		}
 				if("small".equals(size)|| "Small".equals(size))
 				{
 					System.out.println("You said " + size + " pizza size.");
@@ -34,12 +35,13 @@ public class PizzaHut
 						pizzaKind = input.nextLine();
 						if(("Pepperoni".equals(pizzaKind) || "pepperoni".equals(pizzaKind) || "Sausage".equals(pizzaKind)) ||
 								"sasuage".equals(pizzaKind) || "Cheese".equals(pizzaKind) || "chees".equals(pizzaKind))
-								{
-					
-								}
-						
-		}
+						{
+							
+						}
+		
 		if("medium".equals(size) || "Medium".equals(size))
+		{
+			
 		}
 		
 	
@@ -49,4 +51,4 @@ public class PizzaHut
 		}
 	}
 
-}
+	}
